@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        .main {
+            position: relative;
+            margin: auto;
+            margin-top: 60px;
+            width: 1500px;
+            clear: both;
+            z-index: -1;
+        }
+
+        #logo {
+            position: absolute;
+            top: -110px;
+            left: -30px;
+            clear: both;
+        }
+
+        #heading {
+            position: absolute;
+            top: 70px;
+            right: 25px;
+            clear: both;
+            
+
+        }
+
+        h1 {
+            color: #ffffff;
+            clear: both;
+            font-size: 100px;
+            /* word-spacing: -70px; */
+            /* text-indent: -140px; */
+
+        }
+
+        #heading>h1::first-line {
+            font-size:110px;
+            color: #27423a;
+            clear: both;
+
+        }
+
+        .nav-bar {
+            background-color: #27423a;
+            width: 100%;
+            height: 60px;
+            position: fixed;
+            top: 0px;
+            clear: both;
+        }
+
+        ul {
+            float: right;
+            margin-right: 20px;
+        }
+
+        li {
+            display: inline-block;
+            line-height: 80px;
+            margin-top: -25px;
+            margin-right: 25px;
+
+        }
+
+        a {
+            color: white;
+            font-size: 25px;
+            clear: both;
+
+        }
+
+        .get {
+            width: 1500px;
+            position: absolute;
+            margin: auto;
+            clear: both;
+
+        }
+
+        .go p::first-line {
+            font-size: 40px;
+            font-weight: bold;
+            position: relative;
+            margin: auto;
+            clear: both;
+
+        }
+
+        .one {
+            background-color: #27423a;
+            display: inline-block;
+            width: 380px;
+            height: 360px;
+            margin: 5px;
+            margin-left: 80px;
+            margin-bottom: 10px;
+            clear: both;
+
+        }
+
+        .one>img {
+            width: 330px;
+            height: 240px;
+            border-radius: 30px;
+            margin: 25px;
+            clear: both;
+
+        }
+
+        .child>p,
+        a {
+            background-color: #27423a;
+            color: white;
+            text-align: center;
+            padding-bottom: 10px;
+            margin-top: -10px;
+            clear: both;
+        }
+        .last a img {
+            width: 50px;
+            position: fixed;
+            top: 650px;
+            right: 50px;
+        }
+        .popular>p{
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .furniture {
+            text-align: center;
+        }
+        .furniture> a{
+            margin: 100px;
+            padding: 15px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="Order.html">Order now</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </div>
+    <div class="main">
+
+        <div id="bg">
+            <img src="furniture-images/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg" width="100%" alt="Background image">
+        </div>
+
+        <div id="logo">
+            <img src="furniture-images/MF-logo-01.png" width="400px" alt="logo">
+        </div>
+        <header id="heading">
+            <h1 id="top" style="line-height: -5px;">Modern <br>Furnishings</h1>
+        </header>
+        <div class="get">
+            <header class="go">
+                <p>Welcome to Modern Furnishings <br><br>
+                    Your One-Stop Destination for Stylish and Quality Furniture.</p>
+            </header>
+            <br>
+
+            <section>
+                <h2>Explore Our Wide Range of Furniture</h2>
+                <p>At Modern Furnishing, we bring you a curated selection of modern and elegant furniture pieces to
+                    enhance every corner of your home. Whether you're furnishing your living room, bedroom, or dining
+                    room, we have the perfect pieces to suit your style.</p>
+                <p>Shop with confidence knowing that our furniture is crafted with the highest quality materials,
+                    ensuring durability and longevity. Discover the perfect blend of comfort and style to make your home
+                    truly special.</p>
+                <p>What's more? We deliver all over Pakistan, so you can enjoy our premium furniture no matter where you
+                    are.</p>
+            </section>
+            <div class="popular"> <p>POPULAR PRODUCTS</p></div>
+
+            <div class="furniture">
+                <a href="Bedroom-furniture.html">Bed Room Furniture</a>
+                <a href="Diningroom-furniture.html">Dining Room Furniture</a>
+                <a href="livingroom-furniture.html">Living Room Furniture</a>
+            </div>
+            <br>
+            <br>
+
+            <div class="one">
+                <img src="furniture-images/Bedroom-images/point3d-commercial-imaging-ltd-xON7AlJZemw-unsplash.jpg"
+                    alt="Bedrom Furnture Image">
+                <div class="child">
+                    <p>Minimal Bed <br>$100 <br><a href="Order.html">+Add to Cart</a></p>
+                </div>
+            </div>
+
+            <div class="one">
+                <img src="furniture-images/Diningroom-images/jonathan-borba-COzqEKjaxqo-unsplash.jpg"
+                    alt="Dining room Furnture Image">
+                <div class="child">
+                    <p>Dining Table <br>$100 <br><a href="Order.html">+Add to Cart</a></p>
+                </div>
+            </div>
+            <div class="one">
+                <img src="furniture-images/Livingroom-images/sidekix-media-0sDzRgrN_pI-unsplash.jpg"
+                    alt="Living room Furnture Image">
+                <div class="child">
+                    <p>Living Room Sofa<br>$100 <br><a href="Order.html">+Add to Cart</a></p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="last">
+                <a href="#top"><img src="furniture-images/go-to-top.png.png" alt="Go to top button"></a>
+            </div>
+        </footer>
+</body>
+
+</html>
